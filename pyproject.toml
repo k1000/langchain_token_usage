@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "langchain-token-usage"
-version = "0.1.1"
+version = "0.1.2"
 description = "Langchain Token Usage"
 authors = ["Janos Tolgyesi <janos.tolgyesi@gmail.com>"]
 license = "MIT"
@@ -17,7 +17,7 @@ Changelog = "https://github.com/mrtj/langchain-token-usage/releases"
 
 [tool.poetry.dependencies]
 python = ">=3.8.1,<4.0"
-langchain = ">=0.0.351,<0.1.0"
+langchain = ">=0.0.351,<0.1.5"
 urllib3 = ">=1.25.4,<1.27"
 
 [tool.poetry.dev-dependencies]
